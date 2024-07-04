@@ -1,2 +1,2 @@
 # Single-page-website-with-Django
-Django, HTML, CSS
+Django Framework , HTML, CSS
