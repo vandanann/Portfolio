@@ -13,13 +13,17 @@
 </head>
 <style>
   @import url(https://fonts.googleapis.com/css?family=Montserrat);
-  .bg{
-    background: #fff;
-  }
-  .bg:hover{
-    background:#38015a;
-    
-  }
+
+  @import url(https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Zen+Loop:ital@0;1&display=swap);
+.header{
+ 
+  background:url(desk.jpg) 50% 0 no-repeat;
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 360s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2
+}
 </style>
 <body>
 
@@ -29,24 +33,24 @@
   
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
-      <a href="#projects" class="w3-bar-item w3-button bg">Projects
+      <a href="#projects" class="w3-bar-item w3-button w3-hover-indigo">Projects
       </a>
-      <a href="#" class="w3-bar-item w3-button bg">Trainings
+      <a href="#" class="w3-bar-item w3-button w3-hover-indigo">Trainings
       </a>
-      <a href="#" class="w3-bar-item w3-button bg">Certifications
+      <a href="#" class="w3-bar-item w3-button w3-hover-indigo">Certifications
       </a>
     </div>
   </div>
 </div>
 <!--background:  #211957;"-->
 <!-- Header -->
-<header class="w3-display-container w3-padding-64 w3-center w3-grayscale w3-content " style="height: 550px; max-width:1500px;background-image: url(World-Map.jpg)" id="home">
-  <div class="w3-display-middle w3-padding-64 w3-border w3-wide w3-center w3-white w3-opacity">  
+<header class="header w3-display-container w3-padding-64 w3-center w3-content " style="height: 550px;max-width:1500px;" id="home">
+  <div class="w3-display-middle w3-padding-large w3-padding-32 w3-border w3-wide w3-center w3-white w3-opacity-min">  
   <h1 class=" w3-margin-top w3-jumbo " style="font-family: Cutive Mono; letter-spacing: 4px; ">
     <b>Vandana Nipane </b>
   </h1>
-  <h6 style="   font-family: 'Montserrat', sans-serif; font-size: 22px;"><b>Welcome to the portfolio of React Application Development</b>
-    </span>
+  <h6 style="   font-family: 'Montserrat', sans-serif; font-size: 19px;">
+    <b>ASP.NET Web Forms, ASP.NET MVC, ASP.NET CORE, Blazor, React - Redux, C#, TypeScript, JavaScript</b>
   </h6>
   </div>
 </header>
@@ -55,195 +59,289 @@
 <div class="w3-content w3-padding" style="max-width:1564px">
 
 
-  <div class="w3-row-padding w3-padding-64" style="  font-family: Nanum Myeongjo, serif; font-weight: bold;">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Building React.js application with firebase notifications
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+  
+    <div class="w3-row-padding w3-padding-64" style=" font-family: Nanum Myeongjo, cursive; letter-spacing: 2px;   font-weight: bold;">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Creating  cloud-native apps and services with .NET and ASP.NET Core
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Developing Book store web app by designing Node.js REST API
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Building web application with ASP.NET Core and Web API
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Food ordering app with ReactJS and GIS location tracking 
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Build observable, production ready, distributed apps with .NET Aspire.
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">AirBnB clone application with React -Redux, MongoDB 
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Creating Serverless APIs with Azure Functions, implement a RESTful architecture
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Building Ecommerce web app with Stripe integration 
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Create data-driven app with Django framework and Azure
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Task Manager application with React-Redux and REST API
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+   
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Building React.js application with SignalR notifications
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Employee management web app with Redux toolkit
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Developing Book store web app by designing Node.js REST API
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">React.js billing app with pdf generator and React-Hook-Form
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Food ordering app with ReactJS and GIS location tracking
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Developing Node.js REST API with OAuth authentication
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    AirBnB clone application with React -Redux, MongoDB
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Messaging / Chat web app with ReactJS, Sockets.io and Redux
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Building Ecommerce web app with Stripe integration
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Mapbox GIS application with ReactJS and REST API
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Task Manager application - React-Redux and REST API
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
-        <p class="w3-padding-16" style="font-size: 27px; color:#402a23">Dashboard application with Chart.js and Real time REST API
-        </p>
-        <div class="w3-padding-32">
-          <div class="w3-bar w3-border "  style="  font-family: 'Montserrat', sans-serif; ">
-            <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white bg">GitHub
-            </a>
-            <a href="#" class="w3-bar-item w3-button w3-border bg" title="project link">
-              <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link"/>
-            </a>
-          </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Employee management web app with Redux toolkit
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-     
-  </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    React.js billing app with pdf generator and React-Hook-Form
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Developing Node.js REST API with OAuth authentication
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Messaging / Chat web app with ReactJS, Sockets.io and Redux
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-container w3-center w3-border w3-hover-shadow w3-round-xlarge">
+                <p class="w3-padding-16" style="font-size: 25px; color:#402a23">
+                    Dashboard application with Chart.js and Real time REST API
+                </p>
+                <div class="w3-padding-32">
+                    <div class="w3-bar w3-border " style="  font-family:Nanum Myeongjo, sans-serif;">
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-text-white w3-hover-indigo">
+                            GitHub
+                        </a>
+                        <a href="#" class="w3-bar-item w3-button w3-border w3-hover-light-blue" title="project link">
+                            <img width="18" height="18" src="https://img.icons8.com/stencil/18/external-link.png" alt="external-link" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <footer class="w3-center w3-panel w3-margin-top">
-    <p>Designed & Developed by Vandana N. </p>
-    <p>  Email: vandana.nn@yahoo.com </p>
-<p>  Updated on 14th July 2024</p> 
-</footer>
+    </div>
+
+    <footer class="w3-center w3-indigo w3-panel w3-margin-top">
+        <p>Designed & Developed by Vandana N. </p>
+        <p>  Email: vandana.nn@yahoo.com </p>
+        <p>  Updated on 14th July 2024</p>
+    </footer>
 
 </body>
 </html>
