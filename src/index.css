@@ -2,34 +2,38 @@
 @import url(https://fonts.googleapis.com/css2?family=Wellfleet&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=News+Cycle:wght@400;700&family=Oswald:wght@200..700&family=Rubik+Doodle+Shadow&display=swap);
+
 body, h1, h2, h3, h4, h5, h6{background-color: #f7f7f7;
-    font-family: "DM Mono";
+    font-family: "Scope One";
     
     
-color:"#213458"}
+color:"#290416"}
 
 .w3-row-padding img {margin-bottom: 12px}
 /* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;}
+.w3-sidebar {width: 160px;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
+#main {margin-left: 160px}
 /* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+@media only screen and (max-width: 800px) {#main {margin-left:0}}
 
 .w3-bar-item{
     color:#fff;
     text-decoration: none;
-    font-family: "Consolas";
-    letter-spacing: 2px;
+   font-family: "Perpetua Titling MT";
+    letter-spacing: 1px;
+
     
     
 }
 
 .w3-bar-item:hover {
-color: #ccd51a;
-font-size: larger;
+color: #fff;
+font-size:medium;
+background-color: rgb(39, 33, 31);
 
 }
-
 
 
