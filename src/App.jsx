@@ -16,7 +16,7 @@ function App() {
       <>
       <div   >
 <BrowserRouter>
-<nav class="w3-sidebar w3-margin w3-margin-right  w3-bar-block w3-medium w3-hide-small w3-center" style={{background:"#ececec"}}>
+<nav class="w3-sidebar w3-margin w3-margin-right  w3-bar-block w3-medium w3-hide-small w3-center" style={{background:"#1d1716"}}>
   
   
   <a class="w3-bar-item  w3-xxxlarge w3-padding-large ">
