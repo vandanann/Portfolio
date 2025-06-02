@@ -12,7 +12,7 @@ const DotNet =()=>{
             <div key={i}>
 <div class="w3-third " >
 <div class="w3-border w3-hover-border-lime w3-round-large  w3-padding-32 w3-hover-shadow w3-margin">
-<div class="w3-margin w3-padding-large " style={{height:"160px", wordSpacing:"1px",fontFamily:"News Cycle", fontSize:"21px", fontWeight:"bolder", letterSpacing:"2px" , wordWrap:"true"}}>
+<div class="w3-margin w3-padding-large " style={{height:"160px", wordSpacing:"1px",fontFamily:"Tahoma", fontSize:"21px", fontWeight:"bolder", letterSpacing:"2px" , wordWrap:"true"}}>
                  {data.title}</div>            
             
 					<p class=" w3-padding w3-padding-32" style={{fontFamily:"Rockwell" , letterSpacing:"2px" }}>
